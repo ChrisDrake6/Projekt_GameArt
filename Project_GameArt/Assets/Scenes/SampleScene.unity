@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
@@ -550,6 +550,21 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: b329d51a53a861242b8b0abbe9a01a2f, type: 2}
     - target: {fileID: -2428409177939347186, guid: 2f88aba5bf6499a4786cec3b561029f6,
         type: 3}
+      propertyPath: m_CastShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2428409177939347186, guid: 2f88aba5bf6499a4786cec3b561029f6,
+        type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2428409177939347186, guid: 2f88aba5bf6499a4786cec3b561029f6,
+        type: 3}
+      propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2428409177939347186, guid: 2f88aba5bf6499a4786cec3b561029f6,
+        type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 04a1759460e65f0409a6d50365eaa8f5, type: 2}
@@ -678,6 +693,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 0e67137717e2ab949bc7122e92ad5db0, type: 2}
+    - target: {fileID: 1517756467128238409, guid: 2f88aba5bf6499a4786cec3b561029f6,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1740141014144491113, guid: 2f88aba5bf6499a4786cec3b561029f6,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
