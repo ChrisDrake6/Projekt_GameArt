@@ -902,7 +902,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c3251fe96c82541873e83e65ad2625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 73
+  offset: 1.25
   target: {fileID: 1017999811}
 --- !u!224 &561782838
 RectTransform:
@@ -26413,7 +26413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c3251fe96c82541873e83e65ad2625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 125
+  offset: 1.55
   target: {fileID: 872795998}
 --- !u!224 &1888280333
 RectTransform:

@@ -11667,7 +11667,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c3251fe96c82541873e83e65ad2625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 73
+  offset: 1.25
   target: {fileID: 1086881899}
 --- !u!224 &595399929 stripped
 RectTransform:
@@ -32146,7 +32146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8c3251fe96c82541873e83e65ad2625, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: 73
+  offset: 1.25
   target: {fileID: 95878129}
 --- !u!1 &1709180718
 GameObject:
