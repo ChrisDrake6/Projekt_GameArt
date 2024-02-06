@@ -4,17 +4,13 @@ using UnityEngine;
 
 public class Billboard : MonoBehaviour
 {
-    private Transform camTransform;
-    private Quaternion originalRotation;
-
-    void Start()
-    {
-        camTransform = Camera.main.transform;
-        originalRotation = transform.localRotation;
-    }
+    public float offset;
+    public Transform target;
 
     void Update()
     {
-        transform.rotation = camTransform.rotation * originalRotation;
+        Vector3 newPosition = Camera.main.WorldToScreenPoint(new Vector3(target.position.x, target.position.y, target.position.z));
+        newPosition.y += offset;
+        transform.position = newPosition;
     }
 }
